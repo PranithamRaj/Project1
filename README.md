@@ -1,4 +1,4 @@
-# Cold Crafter - Cold Email Writer
+# Cold Crafter - Cold Email Generator
 
 ## Brief Explanation of Project
 

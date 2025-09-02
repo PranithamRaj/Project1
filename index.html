@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app__header">
+        <h1 class="app__title">Tic Tac Toe</h1>
+        <p id="status" class="status" aria-live="polite">Player X's turn</p>
+      </header>
+
+      <section class="board" role="grid" aria-label="Tic Tac Toe board">
+        <div class="board__row" role="row">
+          <button class="cell" role="gridcell" data-index="0" aria-label="Cell 1, empty" aria-disabled="false"></button>
+          <button class="cell" role="gridcell" data-index="1" aria-label="Cell 2, empty" aria-disabled="false"></button>
+          <button class="cell" role="gridcell" data-index="2" aria-label="Cell 3, empty" aria-disabled="false"></button>
+        </div>
+        <div class="board__row" role="row">
+          <button class="cell" role="gridcell" data-index="3" aria-label="Cell 4, empty" aria-disabled="false"></button>
+          <button class="cell" role="gridcell" data-index="4" aria-label="Cell 5, empty" aria-disabled="false"></button>
+          <button class="cell" role="gridcell" data-index="5" aria-label="Cell 6, empty" aria-disabled="false"></button>
+        </div>
+        <div class="board__row" role="row">
+          <button class="cell" role="gridcell" data-index="6" aria-label="Cell 7, empty" aria-disabled="false"></button>
+          <button class="cell" role="gridcell" data-index="7" aria-label="Cell 8, empty" aria-disabled="false"></button>
+          <button class="cell" role="gridcell" data-index="8" aria-label="Cell 9, empty" aria-disabled="false"></button>
+        </div>
+      </section>
+
+      <section class="controls">
+        <button id="resetButton" class="reset" type="button" aria-label="Reset game">Reset</button>
+      </section>
+
+      <footer class="app__footer">
+        <small>Use arrow keys to move, Enter/Space to play.</small>
+      </footer>
+    </main>
+
+    <script src="./script.js" defer></script>
+  </body>
+  </html>
+
